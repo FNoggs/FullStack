@@ -1,0 +1,54 @@
+@keyframes mog {
+    from {
+        transform: rotate(0deg);
+    background-color: blueviolet; 
+    }
+    to {
+        transform: rotate(360deg);
+        background-color: rgb(255, 255, 255);
+    }
+          
+        }   
+   
+#div2 {
+  width: 30%;
+  height: 50%;
+  display: flex;             
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;          
+  min-height: 100vh;       /* Ocupa a altura total da tela */
+  margin: 0;
+  
+}
+
+.imagem-div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     
+}
+#div1{
+            width: 30%; 
+            height: 50%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color:blueviolet;
+            min-height: 100vh;       /* Ocupa a altura total da tela */
+            margin: 0;
+            float: left;
+            
+}
+#div1:hover{
+            border-radius: 20%;
+            width: 30%; 
+            height: 50%;
+            background-color:rgb(73, 73, 141);
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            animation:mog 2s infinite linear;
+            min-height: 100vh;       /* Ocupa a altura total da tela */
+            margin: 0;            
+}
